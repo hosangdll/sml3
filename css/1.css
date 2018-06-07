@@ -1,0 +1,112 @@
+* { margin:0; padding:0; }
+a { text-decoration:none;
+	color:#757575; }
+#layout{
+	width:90%;
+	height:900px;
+	outline:0px solid red;
+	margin:0 auto;
+}
+#login{
+	width:100%;
+	height:50px;
+	outline:0px solid blue;
+	font-size:13px;
+	line-height:55px;
+	text-align:right;
+}
+#login a:hover{
+	color:black;
+	text-decoration:underline;
+}
+#title{
+	width:100%;
+	height:150px;
+	outline:0px solid green;
+	text-align:center;
+	background:url('../img/title2.jpg');
+}
+#title img{
+	width:200px;
+	margin-top:35px;
+}
+#title a:hover{
+	opacity:0.5;
+}	
+#menu{
+	width:100%;
+	height:50px;
+	outline:0px solid skyblue;
+}
+#menu div{
+	width:20%;
+	height:20px;
+	outline:0px solid blue;
+	float:left;
+	margin:5px 2.5%;
+	text-align:center;
+	line-height:40px;
+	font-size:13px;
+	cursor:pointer;
+	color:#757575
+}
+#menu div:hover{
+	color:black;
+	text-decoration:underline;
+	font-weight:bold;
+}
+#main{
+	width:100%;
+	height:650px;
+	outline:0px solid black;
+}
+#left-bann{
+	width:300px;
+	height:100px;
+	outline:0px solid blue;
+	position:absolute;
+	top:350px;
+	margin-left:-345px;
+	transition:all 0.5s;
+}
+#left-bann2{
+	width:300px;
+	height:100px;
+	outline:0px solid blue;
+	position:absolute;
+	top:500px;
+	margin-left:-345px;
+	transition:all 0.5s;
+}
+#left-bann div, #left-bann2 div{
+	float:left;
+}
+#left-bann div:nth-child(1){
+	width:250px;
+	height:100px;
+	background:url('../img/ban2.png')
+}
+#left-bann div:nth-child(2){
+	width:50px;
+	height:100px;
+	background:url('../img/ban1.png')
+}
+#left-bann:hover{
+	transform:translateX(270px);
+}
+#left-bann2 div:nth-child(1){
+	width:250px;
+	height:100px;
+	background:url('../img/ban3.png')
+}
+#left-bann2 div:nth-child(2){
+	width:50px;
+	height:100px;
+	background:url('../img/line1.png')
+}
+#left-bann2:hover{
+	transform:translateX(270px);
+}
+#title a:hover{
+	img:url('../img/logo_2.png');
+}
