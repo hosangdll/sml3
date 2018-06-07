@@ -1,0 +1,25 @@
+*{margin:0; padding:0;}
+#wrap {
+	width:99%;
+	height:610px;
+	border:1px solid white;
+	background:url('../img/login_1.jpg');
+	text-align:center;	
+	font-size:15px;
+	line-height:35px;
+	margin:0px auto;
+}
+#wrap div {
+	width:600px;
+	height:500px;
+	border:0px solid black; 
+	margin:50px auto;
+	background:white;
+}
+#wrap div img{
+	margin-top:100px;
+	cursor:pointer;
+}
+body{
+	font-size:12px;
+}
